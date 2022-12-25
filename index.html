@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <!-- Load Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Load Animate.css library for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Load Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Load main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo pulse">Logo</a>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h1 class="animated fadeInDown">Welcome to Our Landing Page</h1>
+            <p class="animated fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor orci in
+                enim laoreet, at sollicitudin arcu ornare.</p>
+            <button class="animated fadeInUp" onclick="window.location.href='#features'">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="feature animated fadeInLeft">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Feature 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor orci in enim laoreet,
+                            at sollicitudin arcu ornare.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="feature animated fadeInUp">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Feature 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor orci in enim laoreet,
+                            at sollicitudin arcu ornare.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="feature animated fadeInRight">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Feature 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor orci in enim laoreet,
+                            at sollicitudin arcu ornare.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="slider">
+                <div class="slide animated fadeInLeft">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor orci in enim laoreet, at
+                        sollicitudin arcu ornare.</p>
+                    <div class="author">- John Doe</div>
+                </div>
+                <div class="slide animated fadeInUp">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor orci in enim laoreet, at
+                        sollicitudin arcu ornare.</p>
+                    <div class="author">- Jane Doe</div>
+                </div>
+                <div class="slide animated fadeInRight">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor orci in enim laoreet, at
+                        sollicitudin arcu ornare.</p>
+                    <div class="author">- Bob Smith</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <div class="container">
+            <h2>Choose Your Plan</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="plan animated fadeInLeft">
+                        <h3>Basic</h3>
+                        <p class="price">$9.99/mo</p>
+                        <ul>
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                        </ul>
+                        <button onclick="window.location.href='#contact'">Sign Up</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="plan animated fadeInUp">
+                        <h3>Premium</h3>
+                        <p class="price">$19.99/mo</p>
+                        <ul>
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                        </ul>
+                        <button onclick="window.location.href='#contact'">Sign Up</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="plan animated fadeInRight">
+                        <h3>Ultimate</h3>
+                        <p class="price">$29.99/mo</p>
+                        <ul>
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                            <li>Feature 4</li>
+                        </ul>
+                        <button onclick="window.location.href='#contact'">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; 2022</p>
